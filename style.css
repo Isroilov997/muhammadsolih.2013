@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header {
+    background: #FFFFFF;
+    padding: 21px 0;
+    border-bottom: 1px solid grey;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 10px;
+    border: none;
+    background: #FC004A;
+    color: white;
+}
+
+.hero__img {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.btn2 {
+    background-color: inherit;
+    border: none;
+    font-size: 24px;
+    color: #FC004A;
+    display: none;
+}
+
+.ota33 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.card {
+    box-shadow: 0px 4px 6px -4px #0000001A;
+    box-shadow: 0px 10px 15px -3px #0000001A;
+   width: 235px ;
+   height: 391px;
+   padding-left: 12px;
+   border-radius: 10px;
+}
+.card p{
+    margin-top: 10px;
+}
+
+.btn3{
+    background-color: #FC004A;
+    width: 40px;
+    height: 40px;
+    border: none;
+    color: white;
+    font-size: 30px;
+    border-radius: 15px;
+    margin-left: 155px;
+    margin-top: 45px;
+}
+
+.ota55{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+footer{
+    padding: 20px 16px;
+}
+.box9{
+    margin-right: 90px;
+}
+.box6 h2{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px) {
+    header img {
+        display: none;
+    }
+
+    header {
+        padding: 21px;
+    }
+
+    .btn2 {
+        display: none;
+    }
+}
+
+@media(max-width:550px) {
+    nav ul {
+        display: none;
+    }
+
+    .btn2 {
+        display: block;
+    }
+}
